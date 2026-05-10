@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="outer-box">
+      <div class="inner-box">
+        <header class="Login-header">
+          <h1>Signup</h1>
+        </header>
+        <main class="Login-body">
+          <form action="#">
+            <p>
+              <!-- <label for="Enter mobile number or email">Enter mobile number</label> -->
+              <input type="name" id="name" placeholder="Full Name" required />
+            </p>
+            <p>
+              <input type="email" id="email" placeholder="Email" required />
+            </p>
+            <div class="form-check">
+              <div>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="terms"
+                  checked
+                />
+              </div>
+              <div>
+                <label class="form-check-label" for="terms"
+                  >I agree to Mom's Magic
+                  <a href="#" class="link">Terms of Service</a>,
+                  <a href="#" class="link">Privacy Policy</a> and
+                  <a href="#" class="link">Content Policies</a>
+                </label>
+              </div>
+            </div>
+
+            <button class="create-btn">Create account</button>
+
+            <div class="divider">
+              <hr />
+              <span>or</span>
+              <hr />
+            </div>
+            <button id="with-google" type="submit">
+              <img
+                src="img/google.png"
+                alt=""
+                style="height: 20px; vertical-align: middle; margin-right: 8px"
+              />
+              Sign in with Google
+            </button>
+          </form>
+        </main>
+        <div class="divider"></div>
+        <footer class="Login-footer">
+          <p>
+            Already have an account? <a href="../login/index.html">Login</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="Stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="outer-box">
+      <div class="inner-box">
+        <header class="Login-header">
+          <h1>Login</h1>
+        </header>
+        <main class="Login-body">
+          <form action="#">
+            <p>
+              <!-- <label for="Enter mobile number or email">Enter mobile number</label> -->
+              <input
+                type="number or email"
+                id="number or email"
+                placeholder="Enter mobile number"
+                required
+              />
+            </p>
+            <p>
+              <input
+                type="submit"
+                id="continue"
+                value="Send One Time Password"
+              />
+            </p>
+
+            <div class="divider">
+              <hr />
+              <span>or</span>
+              <hr />
+            </div>
+            <button id="with-email" type="submit">
+              <img
+                src="img/gmail.png"
+                alt=""
+                style="height: 20px; vertical-align: middle; margin-right: 8px"
+              />
+              Continue with Email
+            </button>
+
+            <button id="with-google" type="submit">
+              <img
+                src="img/google.png"
+                alt=""
+                style="height: 20px; vertical-align: middle; margin-right: 8px"
+              />
+              Sign in with Google
+            </button>
+          </form>
+        </main>
+
+        <div class="last-itme">Tastes like home made</div>
+        <div class="divider"></div>
+        <footer class="Login-footer">
+          <p>
+            New to Mom's Magic?
+            <a href="../account/index.html">Create account</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
